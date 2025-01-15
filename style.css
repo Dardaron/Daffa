@@ -29,7 +29,7 @@ body {
     white-space: pre-wrap;
 }
 
-.Keahlian{
+.Keahlian {
     color: black;
 }
 
@@ -104,6 +104,12 @@ blockquote footer {
     color: #555;
 }
 
+#layanan {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 #layanan ul {
     list-style: none;
     padding: 0;
@@ -115,6 +121,17 @@ blockquote footer {
     margin: 10px 0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#layanan ul li:hover {
+    background: #007bff;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+#layanan h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -134,4 +151,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
