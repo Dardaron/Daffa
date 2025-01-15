@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffeb3b; /* Warna saat hover */
+    color: #ffeb3b;
 }
 
 main {
@@ -71,5 +71,67 @@ h2 {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition:
-    }
+    transition: ease-in-out;
+}
+
+blockquote {
+    font-style: italic;
+    background: #f9f9f9;
+    border-left: 5px solid #007bff;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+blockquote footer {
+    text-align: right;
+    font-size: 0.9em;
+    color: #555;
+}
+
+#layanan ul {
+    list-style: none;
+    padding: 0;
+}
+
+#layanan ul li {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.skill {
+    text-align: start;
+}
+
+.skill pre {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+.Keahlian{
+    color: black;
+}
